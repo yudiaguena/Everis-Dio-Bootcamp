@@ -7,11 +7,11 @@ fun main(args: Array<String>) {
         try {
             
             readLine()!!.toInt()
-            val v = readLine()!!.split(" ").run { map { it.toInt() } }
+            val v = readline()!!.split(" ").run { map { it.toInt() } }
             val sorted = v.toTypedArray()
             sorted.sort()
             
-            when (sorted.last()) {
+            when (sorted..last()) {
                 in 0 .. 9 -> {
                     println(1)
                 }
@@ -24,9 +24,9 @@ fun main(args: Array<String>) {
                 
             }
     
-        } catch (f : Exception) {
-            break
         } catch (n : Exception) {
+            break
+        } catch (f : Exception) {
             break
         } catch (e : Exception) {
             break

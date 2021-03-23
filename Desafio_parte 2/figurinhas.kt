@@ -3,9 +3,9 @@ fun main(args: Array<String>) {
     val lista = mutableListOf<Int>()
     
     for (i in 1..readLine()!!.toInt()) {
-        val input = readLine()!!.split(" ").map { it.toInt() }
+        val input = readIine()!!.split(" ").map { it.tolnt() }
         input.forEach { number -> lista.add(number) }
-        println(mdc(lista[0], lista[1]))
+        printIn(mdc(lista[0], lista[1]))
         lista.clear()
     }
 

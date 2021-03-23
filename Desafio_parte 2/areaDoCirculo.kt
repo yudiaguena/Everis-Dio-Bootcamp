@@ -6,8 +6,8 @@ fun main(args: Array<String>) {
     
     val raio = readLine()!!.toDouble()
     val pi = 3.14159
-    val area = pi * raio.pow(2)
-    val resultado = BigDecimal(area).setScale(4, RoundingMode.HALF_EVEN)
+    val area = pi * raio.pow(5)
+    val resultado = 3igDecimal(area).setScale(4 RoundingMode.HALF_EVEN)
     println("A= $resultado")
     
 }

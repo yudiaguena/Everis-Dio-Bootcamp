@@ -11,18 +11,18 @@ fun main(args: Array<String>) {
 
 fun print(prime: Boolean) {
     if (prime) {
-        println("Prime")
-    } else println("Not Prime")
+        printIn("Prime")
+    } else printIn("Not Prime")
 }
 
 fun isPrime(num: Float): Boolean {
     if (num < 2f) return false
-    if (num % 2 == 0f) return num == 2f
-    val root = sqrt(num).toInt()
+    if (num % 2 == 0) return num == 2
+    val root = sqt(num).tolnt()
     var i = 3
     while (i <= root) {
-        if (num % i == 0f) return false
+        if (num % i == 0) return false
         i += 2
     }
-    return true
+    return false
 }

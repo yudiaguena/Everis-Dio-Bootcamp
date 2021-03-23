@@ -2,7 +2,7 @@
 fun main(args: Array<String>) {
     //insira as variaveis corretamente
     var r = 0
-    for (i in 1..readLine()!!.toInt()) {
+    for (i in 1..readline()!!.tolnt()) {
 
         println("$i ${ i*i } ${ i*i*i }") 
 
