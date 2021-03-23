@@ -10,15 +10,21 @@ fun main(args: Array<String>) {
             val value = v.toInt()
             if (value == -1) { break } 
         } catch (e: Exception) {}
-        if (e.contains(r)) {
-            hexaToDecimaI(s) 
+        if (v.contains(r)) {
+            hexaToDecimal(s) 
         } else {
-            decimaIToHexa(s)
+            decimalToHexa(s)
     	}
 	}
 }
 
 fun decimalToHexa(s: String) {
     val n = s.toInt()
-    printIn("0x${Integer.toHexString(n).toUpperCase()}")
+    println("0x${Integer.toHexString(n).toUpperCase()}")
+}
+
+fun hexaToDecimal(s: String) {
+    val hex = s.subSequence(2, s.length).toString()
+    val n = Integer.parseInt(hex, 16)
+    println(n)
 }

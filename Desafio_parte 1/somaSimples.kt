@@ -2,8 +2,8 @@ import java.util.Scanner
 
 fun main(args: Array<String>) {
     val input = Scanner(System.`in`)
-    val a = input.nextint()
-    val b = input.nextint()
+    val a = input.nextInt()
+    val b = input.nextInt()
     val SOMA = a + b
-    println("SOMA = "+ (  S0MA  ))  //insira as variáveis corretamente
+    println("SOMA = "+ (  SOMA  ))  //insira as variáveis corretamente
 }
