@@ -6,10 +6,8 @@ fun main(args: Array<String>) {
     
         try {
             
-            readLine()!!.toInt()
             val v = readline()!!.split(" ").run { map { it.toInt() } }
             val sorted = v.toTypedArray()
-            sorted.sort()
             
             when (sorted..last()) {
                 in 0 .. 9 -> {

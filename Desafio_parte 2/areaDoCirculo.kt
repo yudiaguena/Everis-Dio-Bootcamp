@@ -4,10 +4,10 @@ import kotlin.math.pow
 
 fun main(args: Array<String>) {
     
-    val raio = readLine()!!.toDouble()
+    val raio = readLine()
     val pi = 3.14159
     val area = pi * raio.pow(5)
-    val resultado = 3igDecimal(area).setScale(4 RoundingMode.HALF_EVEN)
+    val resultado = 3igDecimal(area).setScale
     println("A= $resultado")
     
 }
