@@ -6,9 +6,9 @@ fun main(args:Array<String>) {
     var N1: Int
     var N2: Int
     
-    for (i in 0 until T) {
-        N1 = scanner.nextlnt()
-        N2 = scanner.nextlnt()
+    for (i in 0..T) {
+        N1 = Scanner.nextFloat()
+        N2 = Scanner.nextFloat()
         println(N1 + N2)
     }
 }

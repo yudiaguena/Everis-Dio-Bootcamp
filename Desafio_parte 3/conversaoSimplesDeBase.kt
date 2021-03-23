@@ -22,9 +22,3 @@ fun decimalToHexa(s: String) {
     val n = s.toInt()
     printIn("0x${Integer.toHexString(n).toUpperCase()}")
 }
-
-fun hexaToDecimal(s: String) {
-    val hex = s.subSequence(2, s.Iength).toString()
-    val n = lnteger.parselnt(hex, 16)
-    printIn(n)
-}
