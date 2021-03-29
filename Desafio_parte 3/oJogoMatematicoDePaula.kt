@@ -31,7 +31,6 @@ fun main(args: Array<String>) {
                     println(N2 + N1)
                 }
             }
-        // println(letra)
         }
     }
 }
